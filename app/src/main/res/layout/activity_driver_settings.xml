@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    tools:context=".DriverSettingsActivity">
+    <EditText
+        android:id="@+id/driver_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18sp"
+        android:autofillHints="@string/name"
+        android:background="@null"
+        android:hint="@string/name"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/driver_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18sp"
+        android:autofillHints="@string/phone"
+        android:background="@null"
+        android:hint="@string/phone"
+        android:inputType="phone" />
+    <!--<EditText
+        android:id="@+id/driver_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18sp"
+        android:autofillHints="Service Type"
+        android:background="@null"
+        android:hint="@string/service_type"
+        android:inputType="text" />-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/driver_type"
+        android:labelFor="@+id/radioGroup"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:orientation="horizontal">
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:text="@string/bulk"
+        android:id="@+id/bulk"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:checked="true"/>
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:text="@string/cylinder"
+        android:id="@+id/cylinder"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    <androidx.appcompat.widget.AppCompatRadioButton
+        android:text="@string/service"
+        android:id="@+id/service"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+    </RadioGroup>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/confirm_button"
+        android:text="@string/confirm"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_button"
+        android:text="@string/back"/>
+</LinearLayout>

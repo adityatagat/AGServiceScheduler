@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "387174402705",
+    "firebase_url": "https://service-scheduler-1823b.firebaseio.com",
+    "project_id": "service-scheduler-1823b",
+    "storage_bucket": "service-scheduler-1823b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:387174402705:android:d17a22d4b6e687e1be8d30",
+        "android_client_info": {
+          "package_name": "com.example.agservicescheduler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "387174402705-u6v3mmps410622e3397n4mrpa2hkg2pn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.agservicescheduler",
+            "certificate_hash": "890c667297850da6bf0391d6fb86dd98e4fb67f6"
+          }
+        },
+        {
+          "client_id": "387174402705-l0utchmujcaoslsosst1tkd2fpaic6bm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyaBQYnkH54cOVsBm0L5TuqkOGL2KnjbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "387174402705-l0utchmujcaoslsosst1tkd2fpaic6bm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
